@@ -229,7 +229,7 @@ allCircles.append("circle")
         // Show tooltip when mouse is on circle
         toolTip.show(d, this);
         // Highlight circle border
-        d3.select(this).style("stroke", "#caa1a");
+        d3.select(this).style("stroke", "#323232");
     })
     .on("mouseout", function (d) {
         // Remove the tooltip
@@ -256,12 +256,12 @@ allCircles.append("circle")
 
         .on("mouseover", function(d) {
             toolTip.show(d);
-            d3.select("." + d.abbr).style("stroke", "#caa1a1");
+            d3.select("." + d.abbr).style("stroke", "#323232");
         })
 
         .on("mouseout", function(d) {
             toolTip.hide(d);
-            d3.select("." + d.abbr).style("stroke", "#e3e3e3");
+            d3.select("." + d.abbr).style("stroke", "#caa1a1");
         });
 
       // Dynamic graph on click
