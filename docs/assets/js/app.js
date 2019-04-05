@@ -235,7 +235,7 @@ allCircles.append("circle")
         // Remove the tooltip
         toolTip.hide(d);
         // Remove the highlight
-        d3.select(this).style("stroke", "#e3e3e3")
+        d3.select(this).style("stroke", "#caa1a1")
     });
 
     // Apply state text on circles (dx & dy are locations)
