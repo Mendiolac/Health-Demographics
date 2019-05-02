@@ -134,11 +134,11 @@ var toolTip = d3.tip()
         return stateLine + xLine + yLine  
     });
     
-    ```
+  ```
     
  A `labelUpdate` function is created to update the current axis and switch between active and inactive.
     
-  ```
+```
 function  labelUpdate(axis, clickText) {
     d3.selectAll(".aText")
         .filter("." + axis)
@@ -148,10 +148,4 @@ function  labelUpdate(axis, clickText) {
         
     clickText.classed("inactive", false).classed("active", true);
     }
-  ```
-  
- 
-  
-  
-    
-
+```
