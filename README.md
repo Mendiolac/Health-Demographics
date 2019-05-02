@@ -14,7 +14,7 @@ The data set included is based on 2014 ACS 1-year estimates: [https://factfinder
  
  ### Languages
  
- Javascript, Ploty.js, HTML, CSS, and SQL Database
+ Javascript, d3.json, tooltip, HTML, CSS, and SQL Database
 
 ## The Beginning
 
